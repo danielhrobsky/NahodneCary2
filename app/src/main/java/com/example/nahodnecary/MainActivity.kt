@@ -16,7 +16,7 @@ import com.example.nahodnecary.ui.theme.NahodneCaryTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge() 
+        enableEdgeToEdge()
         setContent {
             NahodneCaryTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
