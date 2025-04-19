@@ -17,6 +17,11 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+    versionCatalogs {
+        create("nahodnecary1") {
+            from(files("gradle/nahodnecary1.versions.toml"))
+        }
+    }
 }
 
 rootProject.name = "NahodneCary"
